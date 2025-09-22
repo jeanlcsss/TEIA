@@ -13,6 +13,5 @@ df_result = pd.DataFrame({'fitness': resultados, 'algoritmo' : algoritmo})
 sns.boxplot(df_result, x="algoritmo", y = 'fitness')
 
 sns.boxplot(df_result, x="algoritmo", y = 'fitness')
-plt.show()
 sns.swarmplot(df_result, x="algoritmo", y = 'fitness')
 plt.show()
