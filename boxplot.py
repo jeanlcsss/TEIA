@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd 
 import matplotlib.pyplot as plt
 
-results = np.loadtxt("resultados.txt")
+results = np.loadtxt("resultados_estocastico.txt")
 resultados = results.tolist()
 
 algoritmo  = ['Hill Climbing'] * len(resultados)
