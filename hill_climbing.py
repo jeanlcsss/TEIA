@@ -206,7 +206,7 @@ if __name__ == "__main__":
 
     
     print(lista_melhor_fitness)
-    results = np.savetxt("resultados.txt", lista_melhor_fitness, fmt='%d')
+    results = np.savetxt("resultados_estocastico.txt", lista_melhor_fitness, fmt='%d')
     
     # print("\nHistórico de fitness ao longo das iterações:")
     # print(historico)
